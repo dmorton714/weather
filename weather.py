@@ -7,23 +7,24 @@ import numpy as np
 
 df = pd.read_csv (r'data.csv')
 
-#df.dtypes
-#pd.to_datetime(df['Date'])
-#df['Date'] = pd.to_datetime(df['Date'])
+df.dtypes
+
+pd.to_datetime(df['Date'])
+
+df['Date'] = pd.to_datetime(df['Date'])
+
+df['Date'].dt.month  
+
+df['Date'].dt.year % 10
 #df.plot(x="Date",y="Avg", kind="scatter")
 
-Names = []
-Values = []
-  
-with open('data.csv','r') as csvfile:
-    lines = csv.reader(csvfile, delimiter=',')
-    for row in lines:
-        Names.append(row[2])
-        Values.append(row[3])
-  
-plt.scatter(Names, Values, color = 'g',s = 1)
-plt.xticks(rotation = 30)
+print(df.head(20))
 
-plt.title('Average Temps 2022', fontsize = 20)
-  
-plt.show()
+
+
+# x label to be temps 
+# y label to be the month 
+# plots to be average max by decade so 6 plots different color 
+
+
+#df['Date].dt.year%10
