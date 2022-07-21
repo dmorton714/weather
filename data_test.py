@@ -1,0 +1,469 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import datetime
+import csv
+import numpy as np
+
+'''
+df = pd.read_csv (r'jan.csv')
+
+filename = 'jan.csv'
+with open('jan.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+
+
+#df.dtypes
+#pd.to_datetime(df['Date'])
+#df['Date'] = pd.to_datetime(df['Date'])
+
+#col_list = ["fifties", "sixties"]
+#print(df["fifties"])
+#print(df["sixties"])
+#avg works!!!!
+#date works!!
+
+
+df2 = df['fifties'].mean()
+print(df2)
+
+df2 = df['sixties'].mean()
+print(df2)
+
+df2 = df['seventies'].mean()
+print(df2)
+
+df2 = df['eighties'].mean()
+print(df2)
+
+df2 = df['nineties'].mean()
+print(df2)
+
+df2 = df['twok'].mean()
+print(df2)
+
+df2 = df['twenty ten'].mean()
+print(df2)
+
+
+jan = {
+    "years": "50's","60's", "70's", "80's", "90's", "00's", "10's" 
+    "temps": 35.85, 34.45, 30.40, 32.20, 35.90, 35.60, 34.45
+}
+
+
+df = pd.read_csv (r'feb.csv')
+
+
+filename = 'feb.csv'
+with open('feb.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+feb = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 38.90, 34.31, 35.35, 36.29, 40.27, 38.52, 38.98
+}
+
+
+
+df = pd.read_csv (r'March.csv')
+
+
+filename = 'March.csv'
+with open('March.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+March = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 44.57, 43.83, 46.96, 46.24, 46.88, 48.38, 48.49
+}
+
+
+
+df = pd.read_csv (r'april.csv')
+
+
+filename = 'april.csv'
+with open('april.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+april = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 56.72, 56.62, 56.69, 56.16, 56.81, 58.92, 60.20
+}
+
+
+df = pd.read_csv (r'may.csv')
+
+
+filename = 'may.csv'
+with open('may.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+may = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 66.60, 64.86, 65.15, 65.92, 66.43, 67.16, 69.99
+}
+
+
+df = pd.read_csv (r'june.csv')
+
+
+filename = 'june.csv'
+with open('june.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+june = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 75.04, 72.87, 73.58, 74.29, 75.02, 75.57, 77.44
+}
+
+
+
+df = pd.read_csv (r'july.csv')
+
+
+filename = 'july.csv'
+with open('july.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+july = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 78.68, 76.62, 77.03, 78.94, 79.24, 78.15, 80.58
+}
+
+
+
+df = pd.read_csv (r'aug.csv')
+
+
+filename = 'aug.csv'
+with open('aug.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+aug = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 77.02, 75.35, 76.20, 77.18, 77.18, 78.89, 79.05
+}
+
+
+df = pd.read_csv (r'sept.csv')
+
+
+filename = 'sept.csv'
+with open('sept.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+sept = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 70.17, 68.44, 70.30, 69.91, 69.99, 71.37, 73.21
+}
+
+
+
+df = pd.read_csv (r'oct.csv')
+
+
+filename = 'oct.csv'
+with open('oct.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+oct = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 58.46, 57.36, 57.58, 57.82, 59.19, 59.50, 60.96
+}
+
+
+
+df = pd.read_csv (r'nov.csv')
+
+
+filename = 'nov.csv'
+with open('nov.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+
+nov = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 44.39, 45.91, 46.97, 47.89, 47.49, 49.13, 47.56
+}
+
+'''
+
+df = pd.read_csv (r'dec.csv')
+
+
+filename = 'dec.csv'
+with open('dec.csv') as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+print(header_row)
+
+df4 = df['fifties'].mean()
+print(df4)
+
+df4 = df['sixties'].mean()
+print(df4)
+
+df4 = df['seventies'].mean()
+print(df4)
+
+df4 = df['eighties'].mean()
+print(df4)
+
+df4 = df['nineties'].mean()
+print(df4)
+
+df4 = df['twok'].mean()
+print(df4)
+
+df4 = df['twenty ten'].mean()
+print(df4)
+
+'''
+dec = {
+    "years": "50's" "60's" "70's" "80's" "90's" "00's" "10's" 
+    "temps": 37.39, 34.76, 38.57, 36.17, 39.39, 37.58, 40.97
+}
+'''

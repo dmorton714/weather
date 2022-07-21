@@ -5,6 +5,7 @@ import matplotlib.dates as mdates
 import datetime
 import csv
 import numpy as np
+from sqlalchemy import column
 
 filename = 'data.csv'
 with open('data.csv') as f:
@@ -12,15 +13,16 @@ with open('data.csv') as f:
     header_row = next(reader)
 #print(header_row)
 
-for index, column_header in enumerate(header_row):
-    print(index, column_header)
+
+#for index, column_header in enumerate(header_row):
+    #print(index, column_header)
 
 #gets high temps 
 
-highs = [ ]
-for row in reader: 
-    high = int(row[5])
-    highs.append(high)
+    highs = []
+    for row in reader: 
+        high = int(column[4])
+        highs.append(high)
 
 # plot temps 
 plt.style.use('seaborn')
