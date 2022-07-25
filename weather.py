@@ -32,7 +32,7 @@ ax.plot(highs, c="red")
 #formatting
 ax.set_title( "highs", fontsize=24)
 ax.set_xlabel('', fontsize=16)
-ax.set_ylabel("temo (F)", fontsize=16)
+ax.set_ylabel("temp (F)", fontsize=16)
 ax.tick_params(axis= 'both', which='major', labelsize=16)
 
 plt.show()
