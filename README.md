@@ -5,22 +5,17 @@
 - pip install datetime
 - pip install matplotlib
 - pip install notebook
-        or
-- !pip install pandas
-- !pip install numpy
-- !pip install datetime
-- !pip install matplotlib
-- !pip install notebook
+      
 
-
+<h2> After you install the packages open the final_code.ipynd </h2>
 
 <h1> <b>Project scope </b></h1>
 
 I started with the question, could you see a global warming trend from the 50's to now?
 I downloaded the daily average high and low temps from https://www.noaa.gov/. 
-Then I started brainstorming how I wanted to use the data. I decided that averaging the decades per month would be a great way to see the data without being overwhelming. I was surprised that you are able to see a bit of a warming trend. Even though it is a small rise, it is a rise. 
+Then I started brainstorming how I wanted to use the data. I decided that averaging the decades per month would be a great way to see the data without being overwhelming. I was surprised that you are able to see a bit of a warming trend. Even though it is a small rise, it is a rise. I also graphed the hottest and coldest months to see what it looks like over the decades. It seems pretty consistent.
 
-<h1><b>Data project requiorments:</b></h1>
+<h1><b>Data project requirements:</b></h1>
 
 1. read data in 
 I made lists and dictionaries from the csv files I loaded in. So I satisfied the first 2 options. 
