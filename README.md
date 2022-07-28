@@ -2,6 +2,7 @@
 - pip install numpy
 - pip install datetime
 - pip install matplotlib
+- pip install notebook
 
 <h3><b>If you do not have the following installed you will need to open a code cell and run each of the following </b></h3>
 
@@ -9,7 +10,7 @@
 - !pip install numpy
 - !pip install datetime
 - !pip install matplotlib
-
+- !pip install notebook
 
 
 
