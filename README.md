@@ -3,7 +3,8 @@
 - pip install datetime
 - pip install matplotlib
 
-If you do not have the following installed you will need to open a code cell and run each of the following
+<h3><b>If you do not have the following installed you will need to open a code cell and run each of the following</h3></b>
+
 - !pip install pandas
 - !pip install numpy
 - !pip install datetime
@@ -12,12 +13,14 @@ If you do not have the following installed you will need to open a code cell and
 
 
 
+<h1> <b>Project scope </b></h1>
 
 I started with the question, could you see a global warming trend from the 50's to now?
 I downloaded the daily average high and low temps from https://www.noaa.gov/. 
 Then I started brainstorming how I wanted to use the data. I decided that averaging the decades per month would be a great way to see the data without being overwhelming. I was surprised that you are able to see a bit of a warming trend. Even though it is a small rise, it is a rise. 
 
-Data project requiorments 
+<h1><b>Data project requiorments:</b></h1>
+
 1. read data in 
 I made lists and dictionaries from the csv files I loaded in. So I satisfied the first 2 options. 
 
