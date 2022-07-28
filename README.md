@@ -5,7 +5,7 @@
 - pip install datetime
 - pip install matplotlib
 - pip install notebook
-
+        or
 - !pip install pandas
 - !pip install numpy
 - !pip install datetime
