@@ -7,7 +7,7 @@
 - pip install notebook
       
 
-<h2> After you install the packages open the final_code.ipynd </h2>
+<h2> After you install the packages open the final_code.ipynd Also change the extension to lowercase .ipynb</h2>
 
 <h1> <b>Project scope </b></h1>
 
