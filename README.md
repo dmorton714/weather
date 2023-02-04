@@ -1,14 +1,3 @@
-<h3><b>If you do not have the following installed you will need to open a terminal and run each of the following </b></h3>
-
-- pip install pandas
-- pip install numpy
-- pip install datetime
-- pip install matplotlib
-- pip install notebook
-      
-
-<h2> After you install the packages open the final_code.ipynd Also change the extension to lowercase .ipynb</h2>
-
 <h1> <b>Project scope </b></h1>
 
 I started with the question, could you see a global warming trend from the 50's to now?
@@ -36,3 +25,14 @@ I did markdown frames making notes of what was happening with the data and the c
 I have made a ton of commits 16+
 
 7. submit project 
+
+<h3><b>If you do not have the following installed you will need to open a terminal and run each of the following </b></h3>
+
+- pip install pandas
+- pip install numpy
+- pip install datetime
+- pip install matplotlib
+- pip install notebook
+      
+
+<h2> After you install the packages open the final_code.ipynd Also change the extension to lowercase .ipynb</h2>
