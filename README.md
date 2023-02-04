@@ -1,6 +1,6 @@
 <h1> <b>Project scope </b></h1>
 
-I started with the question, could you see a global warming trend from the 50's to now?
+I started with the question, can you see a global warming trend from the 1950's to now?
 I downloaded the daily average high and low temps from https://www.noaa.gov/. 
 Then I started brainstorming how I wanted to use the data. I decided that averaging the decades per month would be a great way to see the data without being overwhelming. I was surprised that you are able to see a bit of a warming trend. Even though it is a small rise, it is a rise. I also graphed the hottest and coldest months to see what it looks like over the decades. It seems pretty consistent.
 
@@ -35,4 +35,3 @@ I have made a ton of commits 16+
 - pip install notebook
       
 
-<h2> After you install the packages open the final_code.ipynd Also change the extension to lowercase .ipynb</h2>
