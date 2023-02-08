@@ -1,6 +1,6 @@
 <h1>Global Warming in Louisville KY <h2>
 <img alt="Global Warming Image title="Sick Earth" src="images/global warming.png"/>
-
+img
 <h1> <b>Project scope </b></h1>
 
 I started with the question, can you see a global warming trend from the 1950's to now?
