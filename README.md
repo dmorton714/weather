@@ -1,6 +1,5 @@
 <h1>Global Warming in Louisville KY <h2>
-<img alt="Global Warming Image title="Sick Earth" src="https://github.com/dmorton714/louisville_metro/blob/main/outputs/anl_sal_vs_ytd.jpg" />
-
+<img alt="Global Warming Image title="Sick Earth" src="images/global warming.png"/>
 
 <h1> <b>Project scope </b></h1>
 
