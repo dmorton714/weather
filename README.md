@@ -38,3 +38,6 @@ I have made a ton of commits 16+
 - pip install datetime
 - pip install matplotlib
 - pip install notebook
+
+source venv/bin/activate
+deactivate
