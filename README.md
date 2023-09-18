@@ -27,6 +27,8 @@ I have 2 versions of the project. The first was how it was submitted for Code Lo
 6. Commit to GitHub 5 times 
 7. submit project 
 
+<img title="Average Decade temp graphed" alt="Graph of average temps by decade" src="images/avgtemp_graph.jpg">
+
 <h3><b><i>If you want to run the project I would advise creating a virtual environment and installing the packages. Some of the dependencies are older versions and require that version to run correctly. </I></b></h3>
 
 
