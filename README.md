@@ -5,6 +5,7 @@
 I started with the question, can you see a global warming trend from the 1950's to now?
 I downloaded the daily average, high, and low temps from https://www.noaa.gov/ for louisville KY. 
 <br>
+<br>
 I have 2 versions of the project. The first was how it was submitted for Code Louisville. The second one was revised to show my progress a year later. I was able to add macine learning to the project as well and predict the weather for the rest of the decade. 
 
 <li> I averaged the decades by month so the data wouldn't be overwhelming.</li>
