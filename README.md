@@ -9,6 +9,7 @@ I have 2 versions of the project. The first was how it was submitted for Code Lo
 
 <li> I averaged the decades by month so the data wouldn't be overwhelming.</li>
 <li> I then plotted the data to see if a trend was visiable.  </li> 
+<br>
 
 | Challenges    | Project One | Project Two |
 | ----------- | ----------- | ------------ |
@@ -19,20 +20,14 @@ I have 2 versions of the project. The first was how it was submitted for Code Lo
 <h1><b>Data project requirements for Project one:</b></h1>
 
 1. read data in 
-
 2. Manipulate or clean your data. 
- 
 3. Analyze your data 
-
 4. Visualize your data 
-
 5. Interpreting my data
-
 6. Commit to GitHub 5 times 
-
 7. submit project 
 
-<h3><b>If you want to run the project I would advise creating a virtual environment and installing the packages. Some of the dependencies are older versions and require that version to run correctly. </b></h3>
+<h3><b><i>If you want to run the project I would advise creating a virtual environment and installing the packages. Some of the dependencies are older versions and require that version to run correctly. </I></b></h3>
 
 
 <!-- 
