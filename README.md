@@ -29,6 +29,8 @@ I have 2 versions of the project. The first was how it was submitted for Code Lo
 
 <img title="Average Decade temp graphed" alt="Graph of average temps by decade" src="images/avgtemp_graph.jpg">
 
+<img title="ML graph" alt="Graph of average temps by decade with ML" src="images/output.png">
+
 <h3><b><i>If you want to run the project I would advise creating a virtual environment and installing the packages. Some of the dependencies are older versions and require that version to run correctly. </I></b></h3>
 
 
